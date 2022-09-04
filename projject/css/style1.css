@@ -1,0 +1,1063 @@
+
+
+
+body{
+
+background-color: rgb(148, 144, 144);
+}
+.div1{
+width: 100vw;
+height: 60;
+background-color: rgba(15, 8, 8, 0.8);
+overflow: auto;
+position: fixed;
+top: 0;
+z-index: 20;
+}
+.img1{
+    width: 60;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+}
+.ul1{
+    list-style: none;
+    float: left;
+    margin-left: 600px;
+}
+.ul1 li{
+display: inline-block;
+margin-left: 10px;
+color: rgb(51, 29, 29);
+}
+.ul1 li a{
+text-decoration: none;
+color:white;
+}
+.parent1{
+ 
+    width:100vw ;
+    height: 100vh;
+    background-color: rgb(148, 134, 134);
+    background-image: url(../images/th4\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 60px;
+}
+.foom1{
+position: absolute;
+width: 100%;
+ height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0,0.5);
+
+}
+.h21{
+ font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    font-size: 50px;
+}
+.p11{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: block;
+    color: azure;
+    margin-top: -20px;
+}
+.div2{
+    text-align: center;
+position: absolute;
+width: 70%;
+top:50% ;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+.btn1{
+width:150px ;
+height: 48px;
+background-color: white;
+border-radius: 11px;
+border: 0;
+font-size: 22px;
+
+}
+.btn2{
+    width:150px ;
+height: 48px;
+background-color: red;
+border-radius: 11px;
+border: 0;
+font-size: 22px;
+color: white;
+margin-left: 15px;
+}
+.btn1:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.btn2:hover{
+opacity: 0.8;
+cursor: pointer;
+
+}
+.div3{
+    
+    text-align: center;
+background-color: black;
+background-image: url(../images/keek.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height: 100vh;
+overflow: auto;
+
+}
+.h22{
+  padding-top: 50;  
+    
+    font-size: 60px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.hr1{
+margin-top: -50;
+margin-bottom: 50;
+width: 60px;
+height: 3px;
+background-color:rgb(211, 221, 123);
+border: 0;
+}
+.div31{
+    margin-top: 100;
+    width: 250px;
+    height: 300px;
+    border: 1px;
+    background-color: #999;    
+    margin-left: 270px;
+
+
+}
+
+.h23{
+    color: white;
+    font-size: 30px;
+}
+.p2{
+    font-size: 20px;
+    color: black;
+}
+.div32{
+    margin-top: 100;
+    width: 250px;
+    height: 300px;
+    border: 4px;
+    background-color: #999; 
+margin: 100 40;
+}
+.div33{
+    margin-top: 100;
+    width: 250px;
+    height: 300px;
+    border: 1px;
+    background-color:#999;
+    position: relative; 
+}
+.div31{
+    float: left;
+}
+.div32{
+    float: left;
+}
+.div33{
+    float: left;
+}
+.i1{
+padding-top: 20px;
+font-size: 25px;
+    color: yellow;
+}
+.i2{
+    padding-top: 20px;
+font-size: 25px;
+    color: yellow;
+}
+.i3{
+    padding-top: 20px;
+font-size: 25px;
+    color: yellow
+}
+.div31:hover{
+    opacity: 0.8;
+    background-color: green;
+    transition: 5s;
+}
+.div32:hover{
+    opacity: 0.8;
+    background-color: green;
+    transition: 5s;
+}
+.div33:hover{
+    opacity: 0.8;
+    background-color: green;
+    transition: 5s;
+}
+.div33:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+height: 0;
+top: 0;
+left: 0;
+background-color:gray;
+opacity: 0;
+}
+
+.a1{
+    text-decoration: none;
+}
+.container{
+width:100%;
+height: 100vh;
+margin: auto;
+background-color: black;
+
+
+}
+.div4{
+width: 80%;
+height: inherit;
+margin: auto;
+background-color: black;
+}
+.div4parent1{
+
+    overflow: auto;
+}
+.div41{
+
+width: 200px;
+height: 250px;
+border: 3px solid;
+border-color: black;
+background-image: url(../images/green.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+float: left;
+margin-left: 200;
+background-position-x: center;
+position: relative;
+}
+.div42{
+    width: 200px;
+    height: 250px;
+    border: 3px solid black;
+
+    background-image: url(../images/travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin:0 40 ;
+    background-position-x: center;
+    position: relative;
+}
+.div43{
+    
+width: 200px;
+height: 250px;
+border: 3px solid;
+border-color: black;
+background-image: url(../images/head.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+float: left;
+background-position-x: center;
+position: relative;
+}
+.div44{
+
+    width: 200px;
+height: 250px;
+border: 3px solid;
+border-color: black;
+background-image: url(../images/head2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position-x: center;
+float: left;
+margin-left: 200;
+margin-top: 20;
+position: relative;
+}
+.div45{
+    width: 200px;
+    height: 250px;
+    border: 3px solid;
+    border-color:  black;
+    background-image: url(../images/che.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+float: left;
+margin: 0 40;
+margin-top: 20;
+position: relative;
+}
+.div46{
+    width: 200px;
+    height: 250px;
+    border: 3px solid;
+    border-color: black;
+    background-image: url(../images/ant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    float: left;
+    margin-top: 20;
+    position: relative;
+}
+.div4parent2{
+    overflow: auto;
+}
+.h222{
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hr2{
+    margin-top: 10;
+margin-bottom: 20;
+width: 60px;
+height: 3px;
+background-color: green;
+border: 0;
+}
+
+.div4overlay{
+position: absolute;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.7);
+visibility:hidden;
+opacity: 0;
+
+}
+.div41:hover .div4overlay{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+.div42:hover .div4overlay{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+.div43:hover .div4overlay{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+.div44:hover .div4overlay{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+
+.div45:hover .div4overlay{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+.div46:hover .div4overlay{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+
+.div4overlay a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(107, 107, 119);
+    color: beige;
+    margin-left: auto;
+
+
+}
+.div4overlay a i {
+line-height: 40px;
+margin-left: 10px;
+
+}
+.i5{
+
+    font-size: 40px;
+}
+.container1{
+    width:100%;
+    height: 100vh;
+    margin: auto;
+    background-color: black;
+    
+    
+    }
+    .div5{
+    width: 80%;
+    height: inherit;
+    margin: auto;
+    background-color:black;
+    }
+    .div5parent1{
+    
+        overflow: auto;
+    }
+    .div51{
+    
+    width: 200px;
+    height: 250px;
+    border: 3px solid;
+    border-color: black;
+    background-image: url(../images/help.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 200;
+    background-position-x: center;
+    position: relative;
+    }
+    .div51:hover{
+        color: antiquewhite;
+        opacity: 0.7;
+    }
+    .div52:hover{
+        color: antiquewhite;
+        opacity: 0.7;
+    }
+    .div53:hover{
+        color: antiquewhite;
+        opacity: 0.7;
+    }
+    .div54:hover{
+        color: antiquewhite;
+        opacity: 0.7;
+    }
+    .div55:hover{
+        color: antiquewhite;
+        opacity: 0.7;
+    }
+    .div56:hover{
+        color: antiquewhite;
+        opacity: 0.7;
+    }
+    .hr5{
+        margin-top: 10;
+        margin-bottom: 20;
+        width: 60px;
+        height: 3px;
+        background-color:yellow;
+        border: 0;
+
+    }
+    
+    .div52{
+        width: 200px;
+        height: 250px;
+        border: 3px solid black;
+    
+        background-image: url(../images/mgg4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin:0 40 ;
+        background-position-x: center;
+        position: relative;
+    }
+    .div53{
+        
+    width: 200px;
+    height: 250px;
+    border: 3px solid;
+    border-color: black;
+    background-image: url(../images/help3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    background-position-x: center;
+    position: relative;
+    }
+    .div54{
+    
+        width: 200px;
+    height: 250px;
+    border: 3px solid;
+    border-color: black;
+    background-image: url(../images/help4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    float: left;
+    margin-left: 200;
+    margin-top: 20;
+    position: relative;
+    }
+    .div55{
+        width: 200px;
+        height: 250px;
+        border: 3px solid;
+        border-color:  black;
+        background-image: url(../images/help7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+    float: left;
+    margin: 0 40;
+    margin-top: 20;
+    position: relative;
+    }
+    .div56{
+        width: 200px;
+        height: 250px;
+        border: 3px solid;
+        border-color: black;
+        background-image: url(../images/download\ \(2\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        float: left;
+        margin-top: 20;
+        position: relative;
+    }
+    .div5parent2{
+        overflow: auto;
+    }
+    .h25{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .hr2{
+        margin-top: 10;
+    margin-bottom: 20;
+    width: 60px;
+    height: 3px;
+    background-color:yellow;
+    border: 0;
+    }
+.div6{
+    
+    width:100%;
+    height: 100vh;
+  margin: auto;
+    background-color: rgb(21, 21, 29);
+
+}
+.h26{
+
+    color: aliceblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 40px;
+
+}
+.hr6{
+
+   
+margin-left: 20;
+width: 60px;
+height: 3px;
+background-color: rgb(97, 22, 22);
+border: 0;
+}
+.div61{
+    background-color: rgb(136, 134, 132);
+    width: 50%;
+    height: 100vh;
+}
+.li23{
+    font-size: 20px;
+    list-style: none;
+}
+.div61 .ul2 .li2 {
+margin-left: 10px;
+list-style: none;
+margin-left: 10px;
+color: rgb(51, 29, 29);
+padding-top: 40px;
+
+
+}
+.i6{
+    width: 20px;
+    height: 20;
+    background-color: rgb(189, 122, 59);
+    font-size: 40px;
+margin-top: 100;
+    margin-left: -40;
+}
+.div6icon{
+    background-color: rgb(136, 134, 132);
+    width: 50px;
+    height: 400;
+    margin-top: -300;
+}
+.div6icon .i61 {
+    
+    margin-left: 10px;
+list-style: none;
+
+color: rgb(97, 22, 22);
+padding-top: 50px;
+
+}
+.div62{
+
+    background-color: black;
+    width: 50%;
+    height: 100vh;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: -695;
+    background-image: url(../images/mbc2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.div7cont{
+    width: 100vw;
+    height: 50vh;
+    background-color: brown;
+   background-image: url(../images/teet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    
+    
+}
+.div71{
+float: left;
+margin-left: 270;
+}
+.div72{
+    float: left;
+    margin-left: 100;
+}
+.div73{
+    margin-left: 100;
+    float: left;
+}
+.div74{
+    margin-left: 100;
+    float: left;
+}
+
+.div7,.div71,.div72,.div73,.div74{
+   margin-top: 80;
+   text-align: center;
+
+}
+.div7 .i7 {
+font-size: 50;
+
+}
+.h27{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(68, 68, 18);
+    
+}
+.sp7{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  rgb(97, 22, 22);
+    font-size: 20;
+}
+.div8cont{
+
+    padding-top: 250;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100vw;
+    margin: auto;
+    background-color: black;
+    height: 100vh;
+}
+.pricing-plans{
+    
+background-color: black;
+    overflow: auto;
+}
+.pricing-item{
+    background-image: url(../images/Mashro3Amal_Slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+width: 25%;
+background-color: white;
+padding: 29px 15px;
+border: 2px solid grey;
+text-align: center;
+
+margin: auto;
+position: relative;
+}
+.pricing-item-text{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #999;
+}
+.pricing-item-permonth{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    padding: 12px 0;
+    margin:20px auto ;
+    border-radius: 50%;
+
+}
+.dolar{
+    margin-top: -5;
+font-size: 50px;
+color: #999;
+font-weight: bold;
+height: 50;
+
+
+}
+.month{
+    margin-top: -1000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #999;
+
+}
+.pricing-item-purchies{
+    margin: auto;
+    border: 2px solid blue;
+    padding: 5px;
+    width: 120px;
+    margin-top: 15px;
+}
+.mg{
+    margin: 0 5%;
+}
+.pricing-list{
+    list-style: none;
+}
+.pricing-list li {
+    color: gray;
+    line-height: 2;
+}
+.lg{
+    margin-left: 5%;
+}
+.pricing-item:after{
+content: "";
+position: absolute;
+width: 100%;
+height: 0;
+top: 0;
+left: 0;
+background-color: black;
+opacity: 0;
+}
+.pricing-item:hover:after {
+width: 100%;
+height: 100%;
+opacity: 0.5;
+transition: 1s;
+
+}
+.pricing-item:hover .pricing-item-text{
+    color: red;
+}
+.pricing-item:hover .dolar{
+    color: red;
+}
+.pricing-item:hover .month{
+    color: red;
+}
+.div9cont{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/download\ \(6\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+}
+.div9foom2{
+    position: absolute;
+width: 100%;
+ height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0,0.8);
+}
+.div91{
+    margin-top: 250;
+    width: 50%;
+    height: 50%;
+    
+    float: left;
+    
+}
+.div9img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    padding: 12px 0;
+    margin:20px auto ;
+    border-radius: 50%;
+    margin-left: 50;
+    background-image: url(../images/features-section-mobile-friendly.png);
+background-size: cover;
+}
+.div9text{
+    width: 200;
+    height: 100;
+    
+    float: right;
+    margin-top: -140;
+    
+    margin-right: 300;
+}
+.p9{
+    color: white;
+font-weight: bold;
+font-size: 30;
+}
+.p91{
+    font-weight: bold;
+    font-size: 20;
+    color: blue;
+
+}
+.p92{
+    padding-top: 50;
+    color: white;
+    font-size: 20;
+}
+.div10count{
+    width: 100vw;
+    height: 100vh;
+    background-color:black;
+margin: auto;
+}
+.team-content{
+overflow: auto;
+
+font-family: 'Courier New', Courier, monospace;
+}
+
+.h210{
+    padding-top: 100;  
+    
+    font-size: 60px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
+}
+.hr10{
+    margin-top: -50;
+    margin-bottom: 50;
+    width: 60px;
+    height: 3px;
+    background-color: red;
+    border: 0;
+}
+.team-item{
+    display: block;
+width:25% ;
+margin-left: 2.5%;
+background-color: rgb(157, 170, 166);
+float: left;
+padding: 17px 13px;
+text-align: center;
+position: relative;
+}
+.team-img{
+width: 90%;
+background-color: rgb(187, 177, 196);
+margin: auto;
+position: relative;
+
+}
+.team-iconoverlay{
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.5);
+visibility: hidden;
+opacity: 0;
+}
+.team-item:hover .team-iconoverlay{
+    visibility: visible;
+    opacity: 1;
+}
+.team-iconoverlay a{
+display: block;
+width: 40px;
+height: 40px;
+background-color: red;
+color: white;
+margin-left: auto;
+
+}
+.team-iconoverlay a i{
+
+     line-height: 40px; 
+}
+.h2100{
+
+
+    text-transform: uppercase;
+    padding: 12px 0px;
+}
+.sp10{
+text-transform: uppercase;
+color: red;
+font-size: 20px;
+
+}
+.mk{
+    margin: 0 5%;
+}
+.team-img img{
+width: 100%;
+height: 150;
+
+}
+.team-item:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #999;
+    opacity: 0;
+}
+.team-item:hover:after{
+width: 100%;
+height: 100%;
+opacity: 0.5;
+transition: 1s;
+
+}
+.div11count{
+width: 100vw;
+height: 150vh;
+background-color: black;
+
+}
+.div11parent{
+overflow: auto;
+
+}
+.div111{
+    width: 25%;
+    background-color: #999;
+    float: left;
+    margin: 0px 50px;
+    text-align: center;
+    position: relative;
+    height: 550;
+}
+.IMG11{
+margin: auto;
+
+/* padding-left: 30px; */
+
+}
+.div11icon a i{
+padding-top: 15px;
+padding-left: 15px;
+
+}
+.p111{
+   font-weight: bold; 
+}
+.div111:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(117, 18, 18);
+    opacity: 0;
+}
+.div111:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+    
+    }
+    .a111{
+     padding-top: -100px;
+      color: blue;
+     text-decoration: none; 
+     font-size: 25px; 
+     
+    }
+    .sp11{
+      
+    }
+    .diva{
+        padding-top: 50px;
+        
+    }
+    .div12cont{
+
+        width: 100vw;
+        height:50vh;
+        background-color:black;
+        padding: 200px 0px;
+    }
+    .div12parent{
+        width: 50%;
+        height: 50%;
+        background-color: black;
+        margin: auto;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .divicon12{
+        padding: 30px 0px;
+
+    }
+    .divicon12 a{
+        font-size: 50px;
+        padding: 0 5px;
+    }
+
+    .sp12{
+        color: #999;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .P12{
+        color: #999;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
